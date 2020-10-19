@@ -24,18 +24,20 @@ Author: Christopher Castig | @castig
 h1 {
      font-size: 3em;
      margin-bottom: 0;
+     padding-bottom: 0;
 }
 .small {
-     font-size: 0.5em;
+     font-size: 1em;
      margin-top: 0;
+     padding: 0;
 }
 /*----------------------------------------------------------------------------- 
 02=LAYOUT  
 -----------------------------------------------------------------------------*/
 #container {
-     background-color: rgb(165, 164, 164);
+     background-image: url("../images/notebook.png");
      margin: 0 auto;
-     width: 1210px;
+     width: 1135px;;
      padding: 0 100px 0 100px;
      overflow: auto;
 }
@@ -45,8 +47,8 @@ h1 {
 #main {
      background-color: white;
      float: left;
-     width: 700px;
-     padding: 50px;
+     width: 625px;
+     padding: 25px;
      
 }
 
@@ -54,14 +56,32 @@ h1 {
      width: 300px;
      float: left;
      background: white;
-     padding: 50px; 
+     padding: 20px; 
      margin: 0 0 0 10px;;
      
 }
-
+main img {
+     display: block;
+     object-fit: contain;
+     margin: 25px;
+}
 #author_photo {
      display: block;
      width: 60%;
      border-radius: 100px;
 }
-
+.post_footer {
+     color:  rgb(165, 164, 164);
+     border-top: lightgray 1px solid;
+}
+.post {
+     margin: 0 0 8   0px 0;
+}
+.quote {
+     font-style: italic;
+     border-left: lightgray 3px solid;
+     padding-left: 10px;
+}
+li {
+     color: red;
+}
